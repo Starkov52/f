@@ -1,0 +1,94 @@
+.taskModal {
+    position: fixed;
+    top: 50px;
+    left: 540px;
+    width: 450px;
+    height: 550px;
+    background-color: rgb(241, 232, 232);
+    border: 0px solid gray;
+    border-radius: 13px;
+    display: none;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    &__title {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+  &__btn {
+    position: absolute;
+    left: 430px;
+    top: -20px;
+    width: 40px;
+    height: 40px;
+  }
+  &__btns {
+    margin-left: 50px;
+  }
+  &__addBtn {
+width: 100px;
+height: 50px;
+background-color: rgb(197, 42, 55);
+align-self: end;
+margin-right: 30px;
+border: none;
+border-radius: 20px;
+margin-top: 40px;
+  }
+    &__titleText {
+        margin-top: 50px;
+      font-size: 15px;
+    }
+  
+    &__inputTitle {
+        margin-top: 5px;
+        width: 70%;
+        padding: 12px 15px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        outline: none;
+    }
+  
+    &__dateText {
+        font-size: 15px;
+        margin-top: 50px;
+        margin-bottom: 5px;
+    }
+  
+    &__dateSelect {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    }
+  
+    &__option {
+      border: none;
+    }
+  
+    &__descriptionTitle {
+        margin-top: 50px;
+      font-size: 15px;
+      margin-bottom: 5px;
+    }
+  
+    &__description {
+        margin-top: 5px;
+        width: 85%;
+        height: 20%;
+        padding: 12px 15px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+        outline: none;
+        resize: none;
+    }
+  }
+  .taskModal.active {
+    display: flex;
+  }

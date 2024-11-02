@@ -1,0 +1,137 @@
+
+.main {
+    display: flex;
+    position: relative;
+    &__item {
+        width: 250px;
+        height: 270px;
+        background-color: rgb(235, 233, 134);
+        margin-left: 25px;
+        margin-top: 50px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        gap: 30px 10px;
+  
+
+}
+&__createTask {
+    width: 250px;
+    height: 270px;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 20px 10px;
+    margin-left: 25px;
+    margin-top: 50px;
+    border-radius: 5px;
+    opacity: 0.8;
+}
+ &__taskBtn {
+  width: 150px;
+  height: 37px;
+  border: none;
+  background-color: rgb(83, 54, 83);
+  border-radius: 10px;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 600;
+ }
+ &__taskBtn:active {
+
+  background-color: rgb(204, 35, 204);
+
+ }
+ &__inner {
+  display: flex;
+  flex-direction: row;
+ }
+    background-color: white;
+    padding-left: 20px;
+    flex-direction: row;
+    justify-self: center;
+    align-self: center;
+    margin-left: 20px;
+    width: 1230px;
+    height: 740px;
+  margin-top: -110px;
+
+    border-radius: 30px;
+    overflow: hidden;
+    overflow-y: auto;
+    flex-wrap: wrap;
+
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background-color: rgb(62, 17, 167);
+border-radius: 30px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgb(161, 124, 79);
+    height: 10px
+}
+  .item-enter {
+    opacity: 0;
+  }
+  .item-enter-active {
+    opacity: 1;
+    transition: opacity 200ms;
+  }
+  .item-exit {
+    opacity: 1;
+  }
+  .item-exit-active {
+    opacity: 0;
+    transition: opacity 200ms;
+  }
+  .search{
+    position: absolute;
+    top: 14px;
+    left: 1290px;
+    z-index: 888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(138, 137, 135);
+    border-radius: 24px;
+    font-size: 10px;
+    width: 13%;
+    &__img{
+      width: 22px;
+      height: 22px;
+    }
+    &__input{
+      width: 150px;
+      border: 2px solid gray;
+      border-radius: 5px;
+      background-color:rgb(255, 255, 255)
+    }
+  }
+  
+
+  .timeNow{
+    position: absolute;
+    top: 15px;
+    left: 320px;
+    width: 130px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    gap: 0 15px;
+    background-color:rgb(198, 197, 202);
+    &__img{
+      width: 25px;
+      height: 25px;
+    }
+    &__value {}
+  }

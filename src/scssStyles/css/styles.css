@@ -1,0 +1,26 @@
+.aside__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+.aside__item img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.aside__item p {
+  font-size: 16px;
+}
+.aside__settings {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.aside__settings img {
+  width: 40px;
+  height: 40px;
+}

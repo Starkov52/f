@@ -1,0 +1,41 @@
+@import '_aside.scss';
+@import '_reset.scss';
+@import '_main.scss';
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import '_createTaskModal.scss';
+@import '_doneTasks.scss';
+@import '_profileSection.scss';
+@import '_setting.scss';
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+@import '_homeSection.scss';
+@import '_advice.scss';
+@import '_registration.scss';
+@import '_adaptation.scss';
+@import '_statistics.scss';
+.App {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+html {
+    overflow: hidden;
+}
+body {
+    background-color: gray;
+display: flex;
+    font-family: "Play", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  text-decoration: none;
+overflow: hidden;
+}
+a {
+
+
+    text-decoration: none;
+    color: black
+}
+ .aside {
+    
+ }
+ .home {}

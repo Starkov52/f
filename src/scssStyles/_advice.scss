@@ -1,0 +1,37 @@
+.advice {
+    background-color:rgb(145, 142, 139);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 560px;
+    height: 180px;
+    margin-left:50px;
+    margin-top: 70px;
+    border-radius: 10px;
+    overflow: auto;
+    gap: 30px;
+    &__item {
+    width: 250px;
+    height: 160px;
+    background-color: rgb(253, 228, 196);
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    }
+    &__title {
+        margin-bottom: 50px;
+        margin-left: 10px;
+        word-break:break-all;
+        width: 180px;
+        background: white;
+        padding-right: 25px;
+    }
+    &__description {
+        margin-left: 10px;
+       
+    }
+}
